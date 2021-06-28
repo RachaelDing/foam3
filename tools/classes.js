@@ -694,6 +694,8 @@ var classes = [
   'foam.flow.Document',
   'foam.flow.DocumentationFolderDAO',
   'foam.flow.DocumentMenu',
+  'net.nanopay.backoffice.docrepo.CapabilityRepoCategory',
+  'net.nanopay.backoffice.docrepo.UCJRepoDocument',
 
   'foam.nanos.ruler.RuleGroup',
   'foam.nanos.ruler.FindRuledCommand',

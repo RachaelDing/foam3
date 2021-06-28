@@ -34,8 +34,8 @@ foam.CLASS({
         this.documentDAO
           .select((doc) => {
             var menu = this.Menu.create({
-              id:     this.id + this.Memento.SEPARATOR + doc.id,
-              // label:  doc.title,
+              id:     'admin.flowdoc' + this.Memento.SEPARATOR + doc.id,
+              label:  'aaa',
               label:  foam.String.labelize(doc.id),
               parent: this.id,
               handler: this.DocumentFileMenu.create({
